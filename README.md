@@ -1,4 +1,4 @@
-## 车载 Android 应用开发与分析 课件&源码
+## 车载Android应用开发与分析 课件&源码
 
 本视频教程的首要目的是锻炼我个人的总结能力，同时帮助从事 Android 互联网应用开发的朋友，快速了解原生车载 Android 应用是如何实现的。
 
@@ -6,16 +6,20 @@
 
 本教程视频地址：
 
-> 由于实际量产的车载系统涉及企业机密，所以本教程不会涉及任何真实的车载应用，主要以解析 Android automotive 原生应用为主。
+> 由于实际量产的车载系统涉及企业机密和信息安全，所以本教程不会涉及任何真实的车载应用，主要以解析 Android automotive 原生应用为主。
 
 ## 课程大纲
 
-01. 车载 Android 系统介绍
- 
+01. 走进车载Android系统
+02. AOSP的下载编译与定制
+03. 编写一个Android系统级应用
+04. 原生车载Launcher解析
+05. 原生Launcher3解析
+
 
 
 ## 与我联系
 
 由于个人能力有限，本教程中的任何问题都欢迎指正，我会尽快核实并修改。
 
-E-mail：cilingciling2014@outlook.com
+E-mail：linxu_link@foxmail.com
