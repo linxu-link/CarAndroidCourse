@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:sharedUserMaxSdkVersion="32"
+    package="com.android.systemapp">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:directBootAware="true"
+        android:persistent="true"
+        android:name=".SystemApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SystemApp">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SystemService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.systemapp.action" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
